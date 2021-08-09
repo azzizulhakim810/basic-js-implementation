@@ -1,4 +1,4 @@
-// Conversion - seer to mon 
+1. // Conversion - seer to mon 
 
 function seerToMon(seer) {
   
@@ -12,12 +12,13 @@ function seerToMon(seer) {
   return mon;
 }
 
-let result = seerToMon(800);
+let result = seerToMon(1200);
 console.log(result);
 
 
 
-// Console total amount of sale
+
+2. // Console total amount of sale
 
 function totalSales(amountOfShirts, amountOfPants, amountOfShoes) {
   const perShirtPrice = 100;
@@ -37,14 +38,14 @@ function totalSales(amountOfShirts, amountOfPants, amountOfShoes) {
   return totalSalePrice;
 }
 
-let sumOfSale = totalSales(10, 50, 20);
+let sumOfSale = totalSales(15, 5, 10);
 console.log(sumOfSale);
 
 
 
 
 
-// Calculate the delivery cost
+3. // Calculate the delivery cost
 
 function deliveryCost(amountOfTshirt) {
   const zeroTo100Price = 100;
@@ -78,7 +79,7 @@ function deliveryCost(amountOfTshirt) {
   }
 }
 
-let sumOfTshirtPrice = deliveryCost(500);
+let sumOfTshirtPrice = deliveryCost(1000);
 console.log(sumOfTshirtPrice);
 
 
@@ -86,7 +87,7 @@ console.log(sumOfTshirtPrice);
 
 
 
-// Console one friend name which carries length 5
+4. // Console first friend's name which carries length 5
 
 function perfectFriend(names) {
 
