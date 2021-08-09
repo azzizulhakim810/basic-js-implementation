@@ -106,6 +106,6 @@ function perfectFriend(names) {
   }
 }
 
-const allFriends = ['kowshik', 'masud' , 'semmon', 'nasim', 'iram', 'firoz', 'ajoy'];
+const allFriends = ['kowshik', 'masud', 'semmon', 'nasim', 'iram', 'firoz', 'ajoy'];
 const friendsName = perfectFriend(allFriends);
 console.log(friendsName);
