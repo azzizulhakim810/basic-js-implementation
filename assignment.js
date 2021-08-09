@@ -101,13 +101,10 @@ function perfectFriend(names) {
     const allNamesLength = getTheName.length;
     if(allNamesLength == 5) { 
     return getTheName;
-
-    } 
-    
+    }   
   }
 }
 
 const allFriends = ['kowshik', 'nasim' , 'semmon', 'masud', 'iram', 'firoz', 'ajoy'];
-
 const friendsName = perfectFriend(allFriends);
 console.log(friendsName);
