@@ -12,7 +12,7 @@ function seerToMon(seer) {
   return mon;
 }
 
-let result = seerToMon(400);
+let result = seerToMon(800);
 console.log(result);
 
 
@@ -37,7 +37,7 @@ function totalSales(amountOfShirts, amountOfPants, amountOfShoes) {
   return totalSalePrice;
 }
 
-let sumOfSale = totalSales(10, 10, 10);
+let sumOfSale = totalSales(10, 50, 20);
 console.log(sumOfSale);
 
 
@@ -78,7 +78,7 @@ function deliveryCost(amountOfTshirt) {
   }
 }
 
-let sumOfTshirtPrice = deliveryCost(356);
+let sumOfTshirtPrice = deliveryCost(500);
 console.log(sumOfTshirtPrice);
 
 
@@ -98,13 +98,13 @@ function perfectFriend(names) {
   }
 
 
-    const allNamesLength = getTheName.length;
-    if(allNamesLength == 5) { 
+    const eachNameLength = getTheName.length;
+    if(eachNameLength == 5) { 
     return getTheName;
     }   
   }
 }
 
-const allFriends = ['kowshik', 'nasim' , 'semmon', 'masud', 'iram', 'firoz', 'ajoy'];
+const allFriends = ['kowshik', 'masud' , 'semmon', 'nasim', 'iram', 'firoz', 'ajoy'];
 const friendsName = perfectFriend(allFriends);
 console.log(friendsName);
